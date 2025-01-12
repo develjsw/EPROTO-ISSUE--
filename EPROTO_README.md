@@ -208,6 +208,7 @@
     - TLSv1.2 : 
       - TLSv1.2로 요청 시 10건 중 2~3건에서 핸드셰이크 실패 ( alert number 80 ) 가 불규칙적으로 발생
       - 서버 또는 클라이언트의 TLS 협상 과정에서 암호화 스위트 호환성 문제 또는 리소스 부족 가능성 확인
+        <img width="580" alt="image" src="https://github.com/user-attachments/assets/7078aa56-b4e0-4bf9-b93c-964dfee5fdb5" />
     - TLSv1.3 :
       - TLSv1.3 요청 시 핸드셰이크 실패 발생하지 않음
       - TLSv1.3에서는 협상 과정 및 암호화 스위트 설정이 안정적으로 동작
